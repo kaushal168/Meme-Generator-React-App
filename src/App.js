@@ -4,6 +4,7 @@ import MemeGenerator from "./MemeGenerator"
 import "./style.css"
 
 function App() {
+    document.title = `Meme Generator`
     return (
         <div>
             <Header />
